@@ -1,0 +1,74 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+*.egg
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+
+# --- Spark / Hadoop / Hive ---
+metastore_db/
+derby.log
+spark-warehouse/
+*.crc
+_SUCCESS
+.ivy2/
+hive_scripts/*.log
+pyspark-scripts/*.log
+spark-sql-scripts/*.log
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.out
+nohup.out
+
+# --- Data files (avoid committing large/raw data) ---
+data/
+*.csv
+*.parquet
+*.avro
+
+# --- Shell/history files ---
+.bash_history
+.bash_logout
+.bashrc
+.hivehistory
+.lesshst
+.python_history
+.wget-hsts
+
+# --- Editor / IDE ---
+.vscode-server/
+.vscode/
+.selected_editor
+.copilot/
+.idea/
+
+# --- SSH / credentials (never commit these) ---
+.ssh/
+*.pem
+*.key
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Cache ---
+.cache/
+.local/
+
+# --- Hive Beeline ---
+.beeline/
